@@ -1,5 +1,4 @@
 const commando = require('discord.js-commando');
-const __ = require('lodash');
 const bot = new commando.Client();
 
 bot.registry.registerGroup('random', 'Random');
