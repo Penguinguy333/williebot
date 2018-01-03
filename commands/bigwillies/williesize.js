@@ -1,7 +1,5 @@
 const commando = require('discord.js-commando');
 
-
-
 class WillieSizeCommand extends commando.Command {
     constructor(client) {
         super(client, {
@@ -12,9 +10,18 @@ class WillieSizeCommand extends commando.Command {
         });
     }
 
-    async run(message, args) {
-        var roll = Math.floor(Math.random() * 6) + 1;
-        message.reply('has a big willie.');
+async run(message, args) {
+        var roll = Math.floor(Math.random() * 3) + 1;
+        if (roll == 1) {
+            message.channel.send(message.author + " has a big willie.");
+        }
+        if (roll == 2) {
+            message.channel.send(message.author + " has a medium sized willie.")
+        }
+        if (roll == 3) {
+            message.channel.send(message.author + " has a small willie. Haha.")
+        }
+
     }
 
 }
