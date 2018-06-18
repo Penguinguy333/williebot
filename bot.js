@@ -6,4 +6,4 @@ bot.registry.registerGroup('big willies', 'Big Willies');
 bot.registry.registerDefaults();
 bot.registry.registerCommandsIn(__dirname + "/commands");
 
-bot.login('Mzk3ODYzNDA5MTY2NTgxNzYw.DS2d9Q.cibXnVYQXcVFZdDQeLjRgYjNYA0');
+bot.login('NDU3NzU4ODM5NTA5NjE0NjA0.DgiZCQ.W2rWkBDw8G6RN89VbWcyqw4GJLs');
