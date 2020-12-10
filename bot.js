@@ -6,4 +6,4 @@ bot.registry.registerGroup('g', 'g');
 bot.registry.registerDefaults();
 bot.registry.registerCommandsIn(__dirname + "/commands");
 
-bot.login('NDU3NzU4ODM5NTA5NjE0NjA0.DgiZCQ.W2rWkBDw8G6RN89VbWcyqw4GJLs');
+bot.login('NDU3NzU4ODM5NTA5NjE0NjA0.WyXfJA.V-6h3TwaGbUwYrelb0OZTl4IcNs');
