@@ -4,9 +4,9 @@ class WillieSizeCommand extends commando.Command {
     constructor(client) {
         super(client, {
             name: 'g',
-            group: 'big willies',
-            memberName: 'williesize',
-            description: 'Shows willie size.'
+            group: 'g',
+            memberName: 'g',
+            description: 'g'
         });
     }
 
